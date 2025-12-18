@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/netflix.png">
+  </head>
+  <body>
+    <div class="container">
+      <h1>NETFLIX</h1>
+      <h3>Thank you for signing up! Tell us more about yourself.</h3>
+      <div class="formarea">
+        <div class="inputarea">
+          <label for="name" class="input-text">Name</label>
+          <input type="text" id="name" placeholder="Enter Your Name" />
+        </div>
+
+        <div class="inputarea">
+          <label for="age" class="input-text">Age</label>
+          <input type="number" id="age" placeholder="Age" />
+        </div>
+
+        <div class="inputarea">
+          <label for="email" class="input-text">E-mail</label>
+          <input type="email" id="email" placeholder="Enter Your E-mail" />
+        </div>
+
+        <div class="inputarea">
+          <label for="favcontent" class="input-text">Favorite Content</label>
+          <select name="favcontent" id="favcontent">
+            <option value="movie">Movie</option>
+            <option value="series">Series</option>
+            <option value="anime">Anime</option>
+            <option value="documentary">Documentary</option>
+          </select>
+        </div>
+
+        <div class="inputarea">
+          <label for="language" class="input-text">Prefered Language</label>
+          <select name="favcontent" id="language">
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="turkish">Turkish</option>
+            <option value="spanish">Spanish</option>
+            <option value="other-language">Other</option>
+          </select>
+        </div>
+
+        <div class="inputarea">
+          <label for="" class="input-text">Favorite Genre</label>
+
+          <div>
+            <input type="checkbox" id="comedy" />
+            <label for="comedy" class="checkbox">Comedy</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="action" />
+            <label for="action" class="checkbox">Action</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="romance" />
+            <label for="romance" class="checkbox">Romance</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="other" />
+            <label for="other" class="checkbox">Other</label>
+          </div>
+        </div>
+
+        <div class="inputarea" class="input-text">
+          <label for="" class="input-text">Gender</label>
+
+          <div>
+            <input type="radio" id="male" />
+            <label for="male" class="checkbox">Male</label>
+          </div>
+
+          <div>
+            <input type="radio" id="female" />
+            <label for="female" class="checkbox">Female</label>
+          </div>
+
+          <div>
+            <input type="radio" id="other-gender" />
+            <label for="other-gender" class="checkbox">Other</label>
+          </div>
+        </div>
+
+        <div class="inputarea">
+          <label for="feedback" class="input-text">Feedback</label>
+          <textarea
+            name="feedback"
+            id="feedback"
+            placeholder="Tell us what you think."
+          ></textarea>
+        </div>
+        <div class="submitbutton-container">
+          <input class="submitbutton" type="submit" value="Send" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
